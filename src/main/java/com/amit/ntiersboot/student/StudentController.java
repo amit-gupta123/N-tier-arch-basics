@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class CustomerController {
-    private final CustomerService service;
+public class StudentController {
+    private final StudentService service;
 
-    public CustomerController(CustomerService service) {
+    public StudentController(StudentService service) {
         this.service = service;
     }
 

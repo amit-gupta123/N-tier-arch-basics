@@ -9,7 +9,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 @Repository
-public class CustomerDao implements CustomerRepository {
+public class StudentDao implements StudentRepository {
 
 private static List<Student> studentList;
     static {
